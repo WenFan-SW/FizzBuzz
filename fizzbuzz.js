@@ -18,7 +18,7 @@ while (n <= 100) {
             word = word.replace('Bang', 'FezzBang');
             break ;
         } else {
-            word += 'Fezz');
+            word += 'Fezz';
         }
     }
     // } else if (n % 17 === 0) {
