@@ -1,7 +1,7 @@
 
 
 var n = 100;
-while (n=< 100) {
+while (n <= 100) {
     n++;
     if (n % 3 == 0) {
         console.log('Fizz');
