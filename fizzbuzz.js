@@ -1,1 +1,12 @@
-console.log("hello!");
+
+
+var n = 100;
+while (n=< 100) {
+    n++;
+    if (n % 3 == 0) {
+        console.log('Fizz');
+}   else if (n % 5 == 0) {
+        console.log('Buzz');
+}   else {
+        console.log(n);
+}}
