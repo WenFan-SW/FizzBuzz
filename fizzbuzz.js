@@ -1,5 +1,5 @@
 let n = 1;
-while (n <= 225) {
+while (n <= 255) {
     let word = "";
     if (n % 3 === 0) {
         word += 'Fizz';
@@ -16,9 +16,13 @@ while (n <= 225) {
             word += 'Fezz';
         }
     }
-    // if (n % 17 === 0) {
-    //     word
-    // }
+    if (n % 17 === 0) {
+        let word1 = "";
+        for (i = 0; i < word.length; i += 4) {
+            word1 += word.substr(-(i+4), 4);
+        }
+        word = word1;
+    }
     if (n % 11 === 0) {
         word = 'Bong';
     }
